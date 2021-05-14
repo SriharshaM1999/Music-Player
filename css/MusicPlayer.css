@@ -1,5 +1,147 @@
 *{
     margin:0;
-    background-color: red;
+    background-color: #1a1a46;
+    color:white;
+    box-sizing: border-box;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+body{
+    width:100vw;
+    height:100vh;
+
+}
+ 
+header{
+    max-width:100vw;
+    margin:0;
+    display:flex;
+    flex-direction:row;
+    padding: 15px;
+    border-bottom: 5px solid red;
+    
+}
+
+
+/* css code for left header */
+
+#left-header{
+    flex-grow:1;
+    flex-shrink: 2;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+
+
+#name-icon img{
+    float:left;
+}
+
+#name-icon img:hover{
+    transform: rotate(270deg);
+
+}
+
+#name-icon h2{
+    margin-left:5px;
+    display:inline-block;
+    font-weight: bold;
+}
+
+#favourites a{
+    text-decoration:none;
+
+}
+
+/* css code for right header */
+
+#right-header{
+    flex-grow:1;
+    display:flex;
+    background:yellow;
+    color:red;
+    justify-content:flex-start;
+}
+
+#userinput{
+    flex-grow:1;
+    
+}
+
+#userinput input{
+    background:rgb(13, 42, 87);
+    outline:none;
+    border:none;
+    opacity:0.5;
+    width:40%;
+    border-bottom:1px solid white;
+    font-size:1rem;
+
+}
+
+
+#microphone-icon{
+float: right;
+}
+
+
+#profile-notifications{
+    flex-grow:1;
+    display:flex;
+    justify-content:flex-end;
+}
+
+#profile-notifications i{
+    margin:0 15%;
+}
+
+@media only screen and (max-width: 600px) {
+
+    header{
+        width:100%;
+        font-size:1rem;
+    }
+
+    #left-header {
+        width:20%;
+        justify-content:flex-start;
+    }
+
+    #right-header {
+
+        width:30%;
+        background-color: #1a1a46;
+        margin-left:10%;
+
+   }
+
+
+
+   #userinput input{
+       width:60%;
+   }
+
+
+
+   #profile-notifications{
+
+     justify-content: flex-start;
+   }
+
+   /* i{
+   //    visibility:hidden;
+   } */
+
+   #name-icon h2{
+        font-size:0.8rem;
+        margin-right:5%;
+        margin-left:-2%
+   }
+
+
+
+    
+
+
+  }

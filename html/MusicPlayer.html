@@ -14,7 +14,7 @@
     <!--Linking Css files to html files-->
 
     <link rel="stylesheet" type="text/css" href="/css/MusicPlayer.css" >
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 </head>
@@ -23,8 +23,59 @@
 
 <body>
 
+<!-- Header is the top most part of the music player -->
+
+<header>
 
 
+    <div id ="left-header">
+
+        <!-- <i class="fa fa-music"></i> -->
+
+            <div id="name-icon">
+                <img src="/images/MusicIcon.jpg" width="40px" height="40px">
+                <h2>Ninja Studio</h2>
+            </div>
+
+            <div id="favourites">
+                <a href="#">Favourites</a>
+            </div>
+
+
+    </div>
+
+
+
+    <div id="right-header">
+
+        <div id="userinput">
+
+            <i id="search-icon" class="fa fa-search"></i>
+
+        
+            <input type="text" name="songname" placeholder="Search">
+
+
+            <i id="search-microphone" class="fa fa-microphone"></i>
+
+        </div>
+
+
+
+        <div id="profile-notifications">
+
+
+        <i class="fa fa-bell"></i>
+
+        <img src="/images/user.png" width="40px" height="40px">
+
+
+        </div>
+
+    </div>
+
+
+</header>
 
 
 
