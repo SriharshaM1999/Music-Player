@@ -1,0 +1,43 @@
+main{
+    min-height: 70vh;
+    width: 65vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow-y:scroll;
+    align-content:space-evenly;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    width:100%;
+    flex-wrap:wrap;
+    height:auto;
+}
+
+section h4{
+    width:100%;
+    margin: 10px 10px;
+}
+
+.Latest-Release-element{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height:auto;
+    width:50%;
+
+}
+
+
+
+
+.Latest-Release-element-left p{
+    height:30px;
+    margin-left:10px;
+
+}
+
+

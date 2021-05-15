@@ -1,6 +1,7 @@
 *{
     margin:0;
-    background-color: #1a1a46;
+    /* background-color: #1a1a46; */
+    background:#0f0f3f;
     color:white;
     box-sizing: border-box;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -18,7 +19,8 @@ header{
     display:flex;
     flex-direction:row;
     padding: 15px;
-    border-bottom: 5px solid red;
+    border-bottom: 2px solid white;
+    height:10vh;
     
 }
 
@@ -70,11 +72,11 @@ header{
 }
 
 #userinput input{
-    background:rgb(13, 42, 87);
+    /* background:rgb(13, 42, 87); */
     outline:none;
     border:none;
     opacity:0.5;
-    width:40%;
+    width:60%;
     border-bottom:1px solid white;
     font-size:1rem;
 
@@ -101,6 +103,8 @@ float: right;
     header{
         width:100%;
         font-size:1rem;
+        height:15vh;
+
     }
 
     #left-header {
@@ -129,9 +133,6 @@ float: right;
      justify-content: flex-start;
    }
 
-   /* i{
-   //    visibility:hidden;
-   } */
 
    #name-icon h2{
         font-size:0.8rem;
@@ -145,3 +146,20 @@ float: right;
 
 
   }
+
+
+@media only screen and (max-height: 600px) {
+
+    header{
+        height:20vh;
+    }
+
+}
+
+@media only screen and (max-height: 300px) {
+
+    header{
+        height:38vh;
+    }
+
+}
