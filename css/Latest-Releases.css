@@ -1,11 +1,12 @@
 main{
     min-height: 70vh;
-    width: 65vw;
+    width: 60vw;
     display:flex;
     flex-direction: column;
     justify-content: space-around;
     overflow-y:scroll;
     align-content:space-evenly;
+    margin-left:5vw;
 }
 
 .section{
@@ -15,6 +16,7 @@ main{
     width:100%;
     flex-wrap:wrap;
     height:auto;
+    margin-bottom: 10vh;
 }
 
 section h4{
@@ -52,3 +54,14 @@ section h4{
 
 }
 
+@media screen and (max-width:600px) {
+
+    .section{
+        width: 70%;
+    }
+
+    .Latest-Release-element{
+        width:100%;
+    }
+    
+}

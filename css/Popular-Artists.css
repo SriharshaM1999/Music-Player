@@ -1,0 +1,28 @@
+.popular-artists-element div img{
+    border-radius:50%;
+    display: inline-block;
+    margin-right: 5vw;
+}
+
+.popular-artists-element{
+display: flex;
+flex-direction:row;
+flex-wrap: wrap;
+
+}
+
+
+@media only screen and (max-width:600px){
+
+    .popular-artists-element div img{
+        width:60px;
+        border-radius:50%;
+        margin-right:2vw;
+    }
+
+    .popular-artists-element{
+        width: 100%;
+    }
+
+
+}
