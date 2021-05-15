@@ -25,9 +25,10 @@ section h4{
 .Latest-Release-element{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     height:auto;
-    width:50%;
+    width:45%;
+    margin:10px;
 
 }
 
@@ -40,4 +41,14 @@ section h4{
 
 }
 
+
+.Latest-Release-element-right{
+    display: flex;
+    flex-direction: row;
+    flex-grow :1;
+    justify-content: space-between;
+    height:30px;
+    margin-left:10px;
+
+}
 
