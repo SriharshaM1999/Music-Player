@@ -1,0 +1,17 @@
+.music-type-container{
+    position: relative;
+    background:pink;
+}
+
+
+.music-name{
+    position:absolute;
+    left:30%;
+    top:40%;
+    font-size:1.2rem;
+    z-index: 100;
+    /* background:black; */
+    background:none;
+    color:white;
+    font-weight:bold;
+}

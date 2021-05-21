@@ -1,8 +1,26 @@
+#popular-artists{
+    color:red;
+}
+
+
 .popular-artists-element div img{
     border-radius:50%;
     display: inline-block;
-    margin-right: 5vw;
-    margin-bottom: 5vh;
+    margin-bottom:2vh;
+ 
+}
+
+.popular-artist{
+    display:flex;
+    flex-direction: column;
+    margin-right: 3vw;
+    margin-bottom: 1vh;
+}
+
+.popular-artist p{
+    font-size:1rem;
+    display:inline;
+    margin-left:10px;
 }
 
 .popular-artists-element{
