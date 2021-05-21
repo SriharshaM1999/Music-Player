@@ -1,0 +1,13 @@
+.latest-collection{
+ display:flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ width:100%;
+ justify-content: space-around;
+
+}
+
+.latest-item{
+    display:flex;
+    flex-direction: column;
+}

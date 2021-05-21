@@ -1,6 +1,10 @@
+#music-type p{
+    font-weight:bold;
+    display:block;
+}
+
 .music-type-container{
     position: relative;
-    background:pink;
 }
 
 
