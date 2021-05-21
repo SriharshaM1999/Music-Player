@@ -4,7 +4,6 @@ main{
     display:inline-block;
     flex-direction: column;
     justify-content: space-around;
-    overflow-y:scroll;
     align-content:space-evenly;
     margin-left:5vw;
 

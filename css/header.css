@@ -19,7 +19,7 @@ header{
     flex-direction:row;
     padding: 15px;
     border-bottom: 2px solid white;
-    height:10vh;
+    height:12vh;
     
 }
 
@@ -40,13 +40,13 @@ header{
 }
 
 #name-icon img:hover{
-    transform: rotate(320deg);
+    transform: rotate(250deg);
 
 }
 
 #name-icon h2{
     margin-left:5px;
-    display:inline-block;
+    display:inline;
     font-weight: bold;
 }
 

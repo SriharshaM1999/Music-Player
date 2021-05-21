@@ -1,6 +1,6 @@
 aside{
     vertical-align:top;
-    width:30%;
+    width:25%;
     height:100vh;
     color:white;
     background-color:red;
@@ -63,3 +63,6 @@ aside{
 
 }
 
+#pause{
+    color:green;
+}
