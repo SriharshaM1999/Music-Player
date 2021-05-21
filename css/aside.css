@@ -1,0 +1,65 @@
+aside{
+    vertical-align:top;
+    width:30%;
+    height:100vh;
+    color:white;
+    background-color:red;
+    display:inline-block;
+}
+
+.aside-header{
+    height:10%;
+    display:flex;
+    /* width:100%; */
+    flex-direction: row;
+    justify-content:space-between;
+
+
+}
+
+#aside-header-name h4{
+    display:inline;
+
+}
+
+#aside-header-options select{
+    border:none;
+    outline:none;
+    color:rgb(16, 223, 16);
+    font-weight:bold;
+}
+
+.aside-body{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;}
+
+
+.aside-body-container{
+    margin-bottom: 2vh;
+   width:100%;
+   display:flex;
+   flex-direction:row;
+   justify-content:space-between;
+
+
+    
+}
+
+.aside-body-container-left{
+
+    display:flex;
+    flex-direction:row; 
+    flex-grow:1
+
+
+}
+
+.aside-body-container-left small , img, p{
+ display:block;
+ margin-left:5%;
+ margin-right:5%;
+
+}
+

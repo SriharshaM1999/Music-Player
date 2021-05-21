@@ -1,12 +1,13 @@
 main{
     min-height: 70vh;
     width: 60vw;
-    display:flex;
+    display:inline-block;
     flex-direction: column;
     justify-content: space-around;
     overflow-y:scroll;
     align-content:space-evenly;
     margin-left:5vw;
+
 }
 
 .section{

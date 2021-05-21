@@ -1,0 +1,27 @@
+#New-Releases{
+    height:40%;
+    width:100%;
+}
+
+
+.New-Release-container{
+    width: 80%;
+    z-index: 1;
+    position: relative;
+
+}
+
+#New-Release-item1{
+    z-index: 1;
+    margin-top:20%;
+   
+   }
+
+#New-Release-item2{
+ position: absolute;
+ z-index: 2;
+ left:12%;
+ top:20%;
+
+}
+
