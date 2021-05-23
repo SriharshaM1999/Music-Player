@@ -1,0 +1,162 @@
+footer{
+    position:fixed;
+    top:80vh;
+    width:100vw;
+    height:20vh;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+left-footer{
+    display: inline;
+}
+footer p{
+    display:inline;
+}
+
+
+
+.left-footer{
+
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    width:25%;
+    margin-right: 0;
+    flex-wrap: wrap;
+}
+
+
+.left-footer-item-first{
+    margin:2rem;
+}
+
+.left-footer-item-second{
+    margin:2rem;
+}
+
+.left-footer-item-second i{
+    margin-right:1rem;
+}
+
+.middle-footer{
+display:flex;
+flex-direction:column;
+width:40%;
+}
+
+.middle-footer-top{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    margin:2rem;
+}
+
+.middle-footer-bottom {
+    width:100%;
+}
+
+.middle-footer-bottom input{
+    -webkit-appearance: none;
+    width: 100%;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    color: green;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30px;
+    height: 15px;
+    background: #04AA6D;
+    cursor: pointer;
+    border-radius: 20%;
+
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    background: #04AA6D;
+    cursor: pointer;
+  }
+
+  .right-footer{
+      display:flex;
+      flex-direction:row;
+      justify-content:space-evenly;
+
+     width:25%;
+}
+
+.right-footer i{
+    margin-top:4rem;
+}
+
+
+@media only screen and (max-width:600px){
+
+    footer{
+        justify-content:flex-start
+    }
+ 
+
+    .right-footer{
+        /* display:none; */
+        flex-direction: column;
+    }
+
+    .right-footer i{
+        display:inline;
+        margin-left:30%;
+    }
+
+    .right-footer .slider{
+            display:none;
+    }
+
+    .left-footer{
+        width:40%;
+        
+
+    }
+
+    .middle-footer{
+        width:50%;
+    }
+
+    .left-footer h4{
+     margin-left:0
+        
+    }
+
+    .left-footer i{
+        display:none;
+    }
+
+    .left-footer-item-first{
+        margin:2rem;
+        margin-left:0;
+        display:inline;
+
+    }
+    
+    .left-footer-item-second{
+       margin-top:10%;
+       display: inline;
+    }
+    
+    .left-footer-item-second i{
+        /* margin-right:1rem; */
+    }
+
+
+
+}
+
+
+
